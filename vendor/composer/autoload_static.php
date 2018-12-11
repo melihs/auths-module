@@ -6,7 +6,15 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit008522ccd960fec0efd15ee52abe5d27
 {
+    public static $files = array (
+        '9f394da3192a168c4633675768d80428' => __DIR__ . '/..' . '/nwidart/laravel-modules/src/helpers.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        'N' => 
+        array (
+            'Nwidart\\Modules\\' => 16,
+        ),
         'M' => 
         array (
             'Modules\\Auth\\' => 13,
@@ -18,6 +26,10 @@ class ComposerStaticInit008522ccd960fec0efd15ee52abe5d27
     );
 
     public static $prefixDirsPsr4 = array (
+        'Nwidart\\Modules\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nwidart/laravel-modules/src',
+        ),
         'Modules\\Auth\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',

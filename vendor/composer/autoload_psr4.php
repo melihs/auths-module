@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Nwidart\\Modules\\' => array($vendorDir . '/nwidart/laravel-modules/src'),
     'Modules\\Auth\\' => array($baseDir . '/'),
     'Joshbrw\\LaravelModuleInstaller\\' => array($vendorDir . '/joshbrw/laravel-module-installer/src'),
 );
